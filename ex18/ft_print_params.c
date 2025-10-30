@@ -6,7 +6,7 @@
 /*   By: mjabalqu <mjabalqu@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 14:51:56 by mjabalqu          #+#    #+#             */
-/*   Updated: 2025/10/29 15:49:24 by mjabalqu         ###   ########.fr       */
+/*   Updated: 2025/10/30 13:07:54 by mjabalqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,9 @@ int	main(int argc, char **argv)
 				ft_putchar(argv[i][j]);
 				j++;
 			}
+			ft_putchar('\n');
 			i++;
 		}
 	}
+	return (0);
 }
